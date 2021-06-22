@@ -1,4 +1,10 @@
 ihv = i have used
 ____________________________________________________________________________
-phpinfo();//
-header('Location: 404.php');// specifie where to redirection
+phpinfo(); | All php informations
+
+require_once('404.php'); | same with require and include but it prevent from repeating including 
+and and in case of a prbleme it shows us a fatal erreur.
+
+include(__DIR__.'/includes/404.php'); | include file to the index.php
+
+header('Location: includes/404.php'); | change direction in some coditions
