@@ -1,3 +1,4 @@
 ihv = i have used
 ____________________________________________________________________________
 phpinfo();//
+header('Location: 404.php');// specifie where to redirection
