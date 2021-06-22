@@ -1,2 +1,2 @@
 # whoosh
-Creating un MVC IN PHP
+Creating un MVC in PHP
