@@ -6,7 +6,7 @@ echo "<pre>";
 // var_dump($_SERVER['REQUEST_METHOD']);
 // echo '<hr>';
 // var_dump($_SERVER['REQUEST_URI']);
-$requestUrl = $_SERVER['REQUEST_URL'] ?? '/ ';
+$requestUrl = $_SERVER['REQUEST_URL'] ?? '/';
 $requestMethode = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 // echo "<br>Request url is: ".$requestUrl;
 // echo "Request method is: ".$requestMethode;
