@@ -11,6 +11,7 @@ $requestMethode = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 // echo "<br>Request url is: ".$requestUrl;
 // echo "Request method is: ".$requestMethode;
 echo "<h3>Home page</h3>";
+echo "<h2>Welcome to whoosh site</h2>";
 if($requestMethode === 'GET' && $requestUrl ==='/'){
     echo "Hello, your url addresse is correct";
 } else {
